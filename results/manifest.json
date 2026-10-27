@@ -1,0 +1,31 @@
+{
+  "data": "synthetic only",
+  "seed": 20261026,
+  "repeats": 60,
+  "assets": 32,
+  "windows": [
+    24,
+    64,
+    160
+  ],
+  "scenarios": [
+    "independent",
+    "weak_factors",
+    "factors",
+    "heavy_tails",
+    "regime_shift"
+  ],
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "source_sha256": {
+    "__init__.py": "4861373bc0226dc9cbafb9e196e6b9eb81d16a3cff6a3ab6ad4eff9b23df51bf",
+    "estimators.py": "03f8a43c558a637d5e1a2b70d4ea135ab103e7b0f4ec99ed9dac4394b4088caa",
+    "experiment.py": "7ce852bef21ffa7df8bb3fb3719277add86f440c65c23d99b0ff79dfedd17e81",
+    "portfolio.py": "86814a2a2bab75c755df7ec43647ec318ee60ba047437d161f624139f98497ce",
+    "simulation.py": "f1165c0b56724243613d0b78eba6c0d7edd0cfe5f0dc9a5e1b0582923faff7d8"
+  }
+}
